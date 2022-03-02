@@ -1,5 +1,5 @@
 .nav-bar {
-  margin: 25px -20px;
+  margin: 25px -20px 0;
   border-top: var(--main-border);
   position: fixed;
   width: 100%;
