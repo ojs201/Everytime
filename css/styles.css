@@ -1,0 +1,237 @@
+@import "components/main-header.css";
+@import "components/nav-bar.css";
+@import "variables.css";
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.info {
+  border: var(--main-border);
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 60px;
+  margin: 105px 20px 0;
+  display: flex;
+}
+
+.info__icons i {
+  color: var(--yellow);
+}
+
+.info__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.info__text span:nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info__text span:nth-child(2) {
+  margin-top: 5px;
+  font-size: 13px;
+  color: var(--yellow);
+}
+
+.info__text span:nth-child(3) {
+  margin-top: 20px;
+  font-size: 14px;
+  border-radius: 30px;
+  background-color: var(--grey);
+  width: 52px;
+  padding: 9px 12px;
+}
+
+.shortcut__components {
+  margin: 35px 30px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shortcut__components li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: px;
+}
+
+.shortcut__element i {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 50%;
+  border: var(--main-border);
+}
+
+.shortcut__element:nth-child(1) i {
+  color: #ff978a;
+}
+
+.shortcut__element:nth-child(2) i {
+  color: #8edde4;
+}
+
+.shortcut__element:nth-child(3) i {
+  color: #61e2c4;
+}
+
+.shortcut__element:nth-child(4) i {
+  color: #8edf67;
+}
+
+.shortcut__element:nth-child(5) i {
+  color: #e8a646;
+}
+
+.shortcut__element:nth-child(6) i {
+  color: #98dbe3;
+}
+
+.shortcut__element span {
+  width: 61px;
+  font-size: 14px;
+}
+
+.favorite {
+  margin: 10px 0;
+  padding: 30px 20px 15px;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+
+.favorite__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header__text span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header__more {
+  color: var(--red);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.favorite__contents {
+  padding-left: 0;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.favorite__contents li {
+  margin: 10px 0;
+}
+
+.favorite__content .title {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.favorite__content .content {
+  font-size: 13px;
+}
+
+.favorite__content i {
+  position: absolute;
+  right: 0;
+  color: var(--red);
+}
+
+.popular {
+  border: var(--main-border);
+  border-radius: 20px;
+  padding: 30px 20px 0px;
+}
+
+.popular__header {
+  margin-bottom: 30px;
+}
+
+.popular__header .header__text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.popular__component {
+  margin-bottom: 30px;
+}
+
+.component-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.component-info .user .name {
+  font-weight: 700;
+}
+
+.component-info .time {
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.4;
+}
+
+.content-box {
+  font-weight: 500;
+}
+
+.content-box .content {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.content-box .title {
+  font-weight: 700;
+}
+
+.component-tail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.component-tail .bulletin-name {
+  opacity: 0.5;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.component-tail .count-info {
+  display: flex;
+}
+
+.component-tail .count-info .good {
+  color: var(--red);
+}
+
+.component-tail .count-info .comment {
+  color: var(--emerald);
+}
+
+.component-tail .count-info div {
+  font-size: 14px;
+}
+
+.component-tail .count-info .good {
+  margin-right: 10px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:active {
+  color: purple;
+}

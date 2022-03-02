@@ -1,0 +1,19 @@
+.nav-bar {
+  margin: 25px -20px;
+  border-top: var(--main-border);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+}
+
+.nav-bar .icons {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+
+.nav-bar .icons li:hover {
+  cursor: pointer;
+}
