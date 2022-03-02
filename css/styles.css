@@ -152,6 +152,7 @@ body {
   border: var(--main-border);
   border-radius: 20px;
   padding: 30px 20px 0px;
+  margin-bottom: 80px;
 }
 
 .popular__header {
