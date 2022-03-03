@@ -233,9 +233,13 @@ body {
 }
 
 a:link {
-  color: blue;
+  color: black;
 }
 
 a:visited {
-  color: purple;
+  color: black;
+}
+
+a:active {
+  color: blue;
 }
