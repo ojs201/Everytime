@@ -8,6 +8,7 @@ ul {
   background-color: white;
   top: 0;
   padding-top: 30px;
+  z-index: 10;
 }
 
 .header__red {
