@@ -1,0 +1,16 @@
+.second-header {
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.header__select {
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__select span {
+  font-size: 23px;
+  font-weight: 600;
+}

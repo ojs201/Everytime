@@ -31,13 +31,9 @@ ul {
 }
 
 .header__title .icons {
-  margin-right: -10px;
+  margin-right: 0px;
 }
 
 .header__title .icons i {
   margin: 0 15px;
-}
-
-.header__title .icons i:nth-child(2) {
-  padding-right: 15px;
 }

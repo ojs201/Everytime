@@ -1,6 +1,9 @@
 @import "components/main-header.css";
 @import "components/nav-bar.css";
+@import "components/timetable.css";
+@import "components/second-header.css";
 @import "variables.css";
+@import "bulletin.css";
 
 body {
   font-family: "Nanum Gothic", sans-serif;
